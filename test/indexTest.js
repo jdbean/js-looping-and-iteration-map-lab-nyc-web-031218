@@ -12,7 +12,7 @@ describe('index.js', function () {
 
     it('returns all drivers lowercased', function () {
       expect(lowerCaseDrivers(drivers)).to.eql(['bobby', 'sammy', 'sally', 'annette', 'sarah', 'bobby']);
-    });
+    });lowerCaseDrivers
 
     it('does not modify the original array', function () {
       lowerCaseDrivers(drivers);
